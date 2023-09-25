@@ -3,6 +3,10 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/**
+ * Alisson de Sousa Vieira
+ * Leonardo de Fontes
+ */
 class Pessoa {
     private static int kp = 0; 
     private String nome;

@@ -3,6 +3,10 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/**
+ * Alisson de Sousa Vieira
+ * Leonardo de Fontes
+ */
 class Pessoa {
 
     private static int kp = 0; 
@@ -10,12 +14,10 @@ class Pessoa {
     private char sexo;
     private int idade;
 
-    // Construtor padrão
     public Pessoa() {
         kp++;
     }
 
-    // Construtor com parâmetros
     public Pessoa(String nome, char sexo, int idade) {
         this.nome = nome;
         this.sexo = sexo;
